@@ -643,6 +643,35 @@
               ]
             }
           }
+        },
+        {
+          "name": "Non-existing Employee - 404",
+          "request": {
+            "method": "GET",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{tokenA}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/emp/employees/507f1f77bcf86cd799439011",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "emp",
+                "employees",
+                "507f1f77bcf86cd799439011"
+              ]
+            }
+          }
         }
       ]
     },
