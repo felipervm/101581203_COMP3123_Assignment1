@@ -2,7 +2,10 @@ const path = require("path");
 const fs = require("fs");
 const winston = require("winston");
 
-const logDir = path.join(process.cwd(), "logs");
+const logDir = process.env.VERCEL
+  ? path.join("/tmp", "logs")
+  : path.join(process.cwd(), "logs");
+
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
 }
