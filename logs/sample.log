@@ -1,0 +1,3 @@
+{"level":"info","message":"Server started","port":3000,"timestamp":"2026-10-17T00:00:00.000Z"}
+{"level":"info","message":"HTTP request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-17T00:00:01.000Z"}
+{"level":"info","message":"Login successful","userId":"SAMPLE_OBJECT_ID","timestamp":"2026-10-17T00:00:02.000Z"}
