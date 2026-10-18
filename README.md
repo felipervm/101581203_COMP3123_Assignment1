@@ -53,6 +53,12 @@ A secure Node.js/Express/MongoDB REST API with user registration, JWT authentica
 
 Default local URL: `http://localhost:3000`
 
+## Live Deployment
+
+Production API: `https://101581203-comp-3123-assignment1.vercel.app`
+
+Health check: `https://101581203-comp-3123-assignment1.vercel.app/health`
+
 ## Environment Variables
 
 ```env
